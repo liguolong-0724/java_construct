@@ -26,7 +26,8 @@ public enum EnumSingleTon {
     }
 
     public Connection getConnection(){
-        try (Connection connection = cpds.getConnection()) {
+        try{
+            Connection connection = cpds.getConnection();
             return connection;
         }catch(Exception e) {
             e.printStackTrace();
