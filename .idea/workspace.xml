@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec14d19c-e7d2-462b-a48d-f80945da2d18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/dynamic_proxy/DynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/dynamic_proxy/DynamicProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/dynamic_proxy/Girl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/static_proxy/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/static_proxy/StaticProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/static_proxy/StaticProxyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/singleton/EnumSingleTon.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/singleton/EnumSingleTon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/dynamic_proxy/DynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/dynamic_proxy/DynamicProxy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/dynamic_proxy/DynamicProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="36" column="26" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#300#301#0" expanded="true" />
@@ -55,11 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="718" column="36" selection-start-line="718" selection-start-column="22" selection-end-line="718" selection-end-column="36" />
+            <state relative-caret-position="300">
+              <caret line="331" column="6" lean-forward="true" selection-start-line="331" selection-start-column="6" selection-end-line="331" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/WeakCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="106" column="44" lean-forward="true" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -78,19 +79,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/dynamic_proxy/Girl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-              <folding>
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -244,6 +232,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowHierarchy.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/singleton" />
@@ -253,9 +242,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -322,7 +311,7 @@
       <updated>1557454455889</updated>
       <workItem from="1557454457320" duration="2950000" />
       <workItem from="1557459304110" duration="445000" />
-      <workItem from="1557712490175" duration="9049000" />
+      <workItem from="1557712490175" duration="10663000" />
     </task>
     <task id="LOCAL-00001" summary="update EnumSingleton">
       <created>1557713777389</created>
@@ -331,7 +320,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557713777390</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="proxy commit">
+      <created>1557808579527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557808579527</updated>
+    </task>
+    <task id="LOCAL-00003" summary="proxy commit">
+      <created>1557809506389</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557809506389</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -340,7 +343,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12444000" />
+    <option name="totallyTimeSpent" value="14058000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -355,17 +358,17 @@
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910873" visible="true" weight="0.257371" />
-      <window_info id="Structure" order="1" sideWeight="0.50089127" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973262" visible="true" weight="0.257371" />
+      <window_info id="Structure" order="1" sideWeight="0.5026738" side_tool="true" weight="0.257371" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39952153" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32894737" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
@@ -386,7 +389,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update EnumSingleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="update EnumSingleton" />
+    <MESSAGE value="proxy commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="proxy commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -399,7 +403,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/dynamic_proxy/DynamicProxy.java</url>
-          <line>36</line>
+          <line>40</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -626,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="53" column="30" lean-forward="true" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/dynamic_proxy/DynamicProxyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -640,22 +637,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/dynamic_proxy/DynamicProxy.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="36" column="26" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="276">
+          <caret line="53" column="30" lean-forward="true" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/WeakCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="106" column="44" lean-forward="true" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="718" column="36" selection-start-line="718" selection-start-column="22" selection-end-line="718" selection-end-column="36" />
+        <state relative-caret-position="300">
+          <caret line="331" column="6" lean-forward="true" selection-start-line="331" selection-start-column="6" selection-end-line="331" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/dynamic_proxy/DynamicProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

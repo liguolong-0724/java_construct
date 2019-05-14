@@ -9,7 +9,11 @@ import java.lang.reflect.Proxy;
  * 通过反射实现动态代理：就是实现阶段不用关系代理是哪个，而在运行阶段指定具体哪个代理。
  * 被代理类一定要实现某个接口
  *
+ * 优点：
+ * 解决了静态代理违反开闭原则的问题
  *
+ * 缺点：
+ * 被代理类一定要实现接口
  */
 public class DynamicProxy implements InvocationHandler {
 
