@@ -30,7 +30,7 @@ public class DynamicProxy implements InvocationHandler {
     }
 
     /**
-     * 得到目标类的代理类
+     * 得到目标类的代理对象，类型为目标类的接口
      * @return
      */
     public Object getProxyInstance(){
