@@ -1,4 +1,4 @@
-package com.onion.factory_method;
+package com.onion.factory.method_factory;
 
 public class FactoryMethodTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.onion.simple_factory;
+package com.onion.factory.simple_factory;
 
 
 public class JavaCourse implements ICourse {

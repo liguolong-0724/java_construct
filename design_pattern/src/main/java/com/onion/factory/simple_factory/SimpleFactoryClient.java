@@ -1,4 +1,4 @@
-package com.onion.simple_factory;
+package com.onion.factory.simple_factory;
 
 public class SimpleFactoryClient {
     public static void main(String[] args) {

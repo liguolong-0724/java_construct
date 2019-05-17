@@ -1,4 +1,4 @@
-package com.onion.factory_method;
+package com.onion.factory.method_factory;
 
 /**
  * 定义Java课程，实现课程接口

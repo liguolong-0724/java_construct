@@ -1,4 +1,4 @@
-package com.onion.factory_method;
+package com.onion.factory.method_factory;
 
 /**
  * 定义具体工厂类，实现课程接口，具体工厂创建具体的课程对象

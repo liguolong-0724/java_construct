@@ -1,4 +1,4 @@
-package com.onion.factory_method;
+package com.onion.factory.method_factory;
 
 /**
  * 定义工作接口，返回类型为抽像课程

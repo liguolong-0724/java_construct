@@ -1,4 +1,4 @@
-package com.onion.abstract_factory;
+package com.onion.factory.abstract_factory;
 
 public class JavaNote implements INote {
     @Override

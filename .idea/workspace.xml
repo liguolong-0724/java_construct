@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec14d19c-e7d2-462b-a48d-f80945da2d18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/PROXY_README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/README_PROXY" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/cglib_dynamic_proxy/CglibProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/cglib_dynamic_proxy/CglibProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/cglib_dynamic_proxy/Girl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/dynamic_proxy/DynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/jdk_dynamic_proxy/DynamicProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/dynamic_proxy/DynamicProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/jdk_dynamic_proxy/DynamicProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/dynamic_proxy/Girl.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/jdk_dynamic_proxy/Girl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory_method/FactoryMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory_method/FactoryMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory_method/ICourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory_method/ICourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory_method/ICourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory_method/ICourseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory_method/JavaCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory_method/JavaCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory_method/JavaCourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory_method/JavaCourseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/PROXY_README" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/PROXY_README" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,19 +38,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/cglib_dynamic_proxy/Girl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/cglib_dynamic_proxy/CglibProxy.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,7 +77,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="306">
-                <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+                <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
               </first_editor>
               <second_editor />
             </state>
@@ -146,6 +130,7 @@
         <option value="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/cglib_dynamic_proxy/CglibProxyTest.java" />
         <option value="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/cglib_dynamic_proxy/Girl.java" />
         <option value="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/README_PROXY" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/method_factory/ICourse.java" />
         <option value="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/PROXY_README" />
       </list>
     </option>
@@ -227,18 +212,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="onion" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_construct" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_construct" type="462c0819:PsiDirectoryNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="onion" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk_dynamic_proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="factory_method" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_construct" type="b2602c69:ProjectViewProjectNode" />
@@ -259,7 +233,7 @@
     <property name="ToolWindowHierarchy.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/singleton" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/simple_factory" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -275,6 +249,7 @@
       <recent name="com.onion.proxy.cglib_dynamic_proxy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/method_factory" />
       <recent name="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/singleton" />
       <recent name="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/simple_factory" />
       <recent name="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory_method" />
@@ -347,7 +322,7 @@
       <workItem from="1557454457320" duration="2950000" />
       <workItem from="1557459304110" duration="445000" />
       <workItem from="1557712490175" duration="12438000" />
-      <workItem from="1558057960386" duration="2226000" />
+      <workItem from="1558057960386" duration="2532000" />
     </task>
     <task id="LOCAL-00001" summary="update EnumSingleton">
       <created>1557713777389</created>
@@ -377,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557820793859</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cglib proxy commit">
+      <created>1558060370645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558060370645</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -386,7 +368,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18059000" />
+    <option name="totallyTimeSpent" value="18365000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,7 +415,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update EnumSingleton" />
     <MESSAGE value="proxy commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="proxy commit" />
+    <MESSAGE value="cglib proxy commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="cglib proxy commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -758,11 +741,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/method_factory/JavaCourse.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/method_factory/ICourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/method_factory/JavaCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/method_factory/FactoryMethodTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/method_factory/ICourse.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/PROXY_README">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="306">
-            <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+            <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
           </first_editor>
           <second_editor />
         </state>

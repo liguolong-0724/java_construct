@@ -1,4 +1,4 @@
-package com.onion.simple_factory;
+package com.onion.factory.simple_factory;
 
 public class PythonCourse implements ICourse {
     @Override
