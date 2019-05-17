@@ -1,4 +1,4 @@
-package com.onion.proxy.dynamic_proxy;
+package com.onion.proxy.jdk_dynamic_proxy;
 
 
 import java.lang.reflect.InvocationHandler;
