@@ -2,79 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec14d19c-e7d2-462b-a48d-f80945da2d18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/delegate/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/delegate/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/delegate/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/delegate/StaffA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/delegate/StaffB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/strategy/AddOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/strategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/strategy/MultiplyOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/strategy/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/strategy/StrategyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/strategy/SubstractOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/META-INF/design_pattern.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/delegate/Boss.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/delegate/Manager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/delegate/Staff.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/delegate/StaffA.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/delegate/StaffB.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/abstract_factory/AbstractFactoryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/abstract_factory/ICode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/abstract_factory/ICourseFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/abstract_factory/INote.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/abstract_factory/IVideo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/abstract_factory/JavaCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/abstract_factory/JavaCourseFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/abstract_factory/JavaNote.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/abstract_factory/JavaVideo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/method_factory/FactoryMethodTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/method_factory/ICourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/method_factory/ICourseFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/method_factory/JavaCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/method_factory/JavaCourseFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/simple_factory/CourseSimpleFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/simple_factory/ICourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/simple_factory/JavaCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/simple_factory/PythonCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory/simple_factory/SimpleFactoryClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/proxy/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/proxy/cglib_dynamic_proxy/CglibProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/proxy/cglib_dynamic_proxy/CglibProxyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/proxy/cglib_dynamic_proxy/Girl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/proxy/jdk_dynamic_proxy/DynamicProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/proxy/jdk_dynamic_proxy/DynamicProxyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/proxy/jdk_dynamic_proxy/Girl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/proxy/static_proxy/Man.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/proxy/static_proxy/StaticProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/proxy/static_proxy/StaticProxyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/strategy/AddOperation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/strategy/Context.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/strategy/MultiplyOperation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/strategy/Strategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/strategy/StrategyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/strategy/SubstractOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/direct/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/direct/DirectPatterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/direct/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/abstract_factory/AbstractFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/abstract_factory/ICode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/abstract_factory/ICourseFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/abstract_factory/INote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/abstract_factory/IVideo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/abstract_factory/JavaCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/abstract_factory/JavaCourseFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/abstract_factory/JavaNote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/abstract_factory/JavaVideo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory_method/FactoryMethodTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory_method/ICourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory_method/ICourseFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory_method/JavaCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/factory_method/JavaCourseFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/simple_factory/CourseSimpleFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/simple_factory/ICourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/simple_factory/JavaCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/simple_factory/PythonCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/onion/simple_factory/SimpleFactoryClient.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -103,7 +34,60 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/direct/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="425">
+                <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/direct/Computer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+              <folding>
+                <element signature="e#2364#2365#0" expanded="true" />
+                <element signature="e#2414#2415#0" expanded="true" />
+                <element signature="e#2454#2455#0" expanded="true" />
+                <element signature="e#2494#2495#0" expanded="true" />
+                <element signature="e#2668#2669#0" expanded="true" />
+                <element signature="e#2702#2703#0" expanded="true" />
+                <element signature="e#2851#2852#0" expanded="true" />
+                <element signature="e#2884#2885#0" expanded="true" />
+                <element signature="e#3040#3041#0" expanded="true" />
+                <element signature="e#3084#3085#0" expanded="true" />
+                <element signature="e#3283#3284#0" expanded="true" />
+                <element signature="e#3326#3327#0" expanded="true" />
+                <element signature="e#3514#3515#0" expanded="true" />
+                <element signature="e#3550#3551#0" expanded="true" />
+                <element signature="e#3717#3718#0" expanded="true" />
+                <element signature="e#3760#3761#0" expanded="true" />
+                <element signature="e#3951#3952#0" expanded="true" />
+                <element signature="e#3990#3991#0" expanded="true" />
+                <element signature="e#4162#4163#0" expanded="true" />
+                <element signature="e#4198#4199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/direct/DirectPatterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -161,6 +145,10 @@
         <option value="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/strategy/Context.java" />
         <option value="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/strategy/StrategyTest.java" />
         <option value="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/strategy/README.md" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/simple_factory/CourseSimpleFactory.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/direct/README.md" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/direct/Computer.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/com/onion/direct/DirectPatterTest.java" />
       </list>
     </option>
   </component>
@@ -190,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -242,22 +229,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="onion" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_construct" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_construct" type="462c0819:PsiDirectoryNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="onion" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="direct" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StrategyTest">
+  <component name="RunManager" selected="Application.DirectPatterTest">
     <configuration name="Boss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.onion.delegate.Boss" />
       <module name="design_pattern" />
@@ -315,15 +293,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.onion.proxy.jdk_dynamic_proxy.DynamicProxyTest" />
+    <configuration name="DirectPatterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.onion.direct.DirectPatterTest" />
       <module name="design_pattern" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.onion.proxy.static_proxy.StaticProxyTest" />
+    <configuration name="DynamicProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.onion.proxy.jdk_dynamic_proxy.DynamicProxyTest" />
       <module name="design_pattern" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -338,11 +316,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DirectPatterTest" />
         <item itemvalue="Application.StrategyTest" />
         <item itemvalue="Application.Boss" />
         <item itemvalue="Application.CglibProxyTest" />
         <item itemvalue="Application.DynamicProxyTest" />
-        <item itemvalue="Application.StaticProxyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +338,8 @@
       <workItem from="1557459304110" duration="445000" />
       <workItem from="1557712490175" duration="12438000" />
       <workItem from="1558057960386" duration="3201000" />
-      <workItem from="1558490252890" duration="3218000" />
+      <workItem from="1558490252890" duration="7696000" />
+      <workItem from="1559106881360" duration="1658000" />
     </task>
     <task id="LOCAL-00001" summary="update EnumSingleton">
       <created>1557713777389</created>
@@ -404,7 +383,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558060805753</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="delegate and strategy commit">
+      <created>1558493984976</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558493984976</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update commit">
+      <created>1558523293605</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558523293605</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -413,7 +406,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22252000" />
+    <option name="totallyTimeSpent" value="28388000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,14 +419,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973262" visible="true" weight="0.26474202" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973262" visible="true" weight="0.26842752" />
       <window_info id="Structure" order="1" sideWeight="0.5026738" side_tool="true" weight="0.257371" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23923445" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23923445" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39952153" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,7 +455,9 @@
     <MESSAGE value="proxy commit" />
     <MESSAGE value="cglib proxy commit" />
     <MESSAGE value="update package construct" />
-    <option name="LAST_COMMIT_MESSAGE" value="update package construct" />
+    <MESSAGE value="delegate and strategy commit" />
+    <MESSAGE value="update commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="update commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -487,35 +483,11 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/static_proxy/StaticProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/ConstructorAccessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/Constructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="422" column="27" selection-start-line="417" selection-start-column="8" selection-end-line="417" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/abstract_factory/AbstractFactoryTest.java" />
     <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/proxy/jdk_dynamic_proxy/Girl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -626,55 +598,16 @@
     <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/method_factory/JavaCourse.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/method_factory/ICourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/method_factory/JavaCourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/method_factory/FactoryMethodTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/method_factory/ICourse.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/abstract_factory/INote.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/abstract_factory/ICode.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/abstract_factory/JavaNote.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/abstract_factory/ICourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/abstract_factory/JavaCode.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/abstract_factory/JavaCourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/abstract_factory/AbstractFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/abstract_factory/JavaVideo.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/abstract_factory/IVideo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/simple_factory/ICourse.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/simple_factory/SimpleFactoryClient.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/simple_factory/PythonCourse.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/simple_factory/CourseSimpleFactory.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/singleton/DoubleCheckSingleTon.java">
@@ -683,9 +616,6 @@
           <caret line="8" column="20" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/simple_factory/JavaCourse.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/delegate/Staff.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -776,9 +706,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/strategy/README">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/strategy/README" />
     <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/strategy/StrategyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -805,6 +733,157 @@
             <element signature="e#319#320#0" expanded="true" />
             <element signature="e#369#370#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/simple_factory/JavaCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/simple_factory/ICourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/simple_factory/SimpleFactoryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/method_factory/FactoryMethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3434">
+          <caret line="1699" column="31" selection-start-line="1699" selection-start-column="31" selection-end-line="1699" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/simple_factory/CourseSimpleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/method_factory/ICourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/abstract_factory/JavaCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/method_factory/ICourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/abstract_factory/ICourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/abstract_factory/INote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/abstract_factory/IVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/abstract_factory/ICode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/abstract_factory/JavaCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/factory/abstract_factory/AbstractFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/direct/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="425">
+            <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/direct/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <element signature="e#2364#2365#0" expanded="true" />
+            <element signature="e#2414#2415#0" expanded="true" />
+            <element signature="e#2454#2455#0" expanded="true" />
+            <element signature="e#2494#2495#0" expanded="true" />
+            <element signature="e#2668#2669#0" expanded="true" />
+            <element signature="e#2702#2703#0" expanded="true" />
+            <element signature="e#2851#2852#0" expanded="true" />
+            <element signature="e#2884#2885#0" expanded="true" />
+            <element signature="e#3040#3041#0" expanded="true" />
+            <element signature="e#3084#3085#0" expanded="true" />
+            <element signature="e#3283#3284#0" expanded="true" />
+            <element signature="e#3326#3327#0" expanded="true" />
+            <element signature="e#3514#3515#0" expanded="true" />
+            <element signature="e#3550#3551#0" expanded="true" />
+            <element signature="e#3717#3718#0" expanded="true" />
+            <element signature="e#3760#3761#0" expanded="true" />
+            <element signature="e#3951#3952#0" expanded="true" />
+            <element signature="e#3990#3991#0" expanded="true" />
+            <element signature="e#4162#4163#0" expanded="true" />
+            <element signature="e#4198#4199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/com/onion/direct/DirectPatterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
         </state>
       </provider>
     </entry>
