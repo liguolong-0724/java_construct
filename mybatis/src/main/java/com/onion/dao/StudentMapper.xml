@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.onion.dao.StudentMapper" >
+
+    <resultMap id="studentMap" type="Student">
+        <id property="id" column="id"/>
+        <result property="userName" column="user_name" />
+        <result property="age" column="age" />
+        <association property="studentCard" column="card_id" javaType="StudentCard" resultMap="studentCardMap" columnPrefix="card_"/>
+    </resultMap>
+
+    <resultMap id="studentCardMap" type="StudentCard">
+        <id property="cardId" column="id"></id>
+        <result property="cardName" column="name"></result>
+    </resultMap>
+
+    
+    <select id="getStudentById" parameterType="Int" resultMap="studentMap">
+        select a.id,a.user_name,a.age,b.card_id,b.card_name from
+        (select id,user_name,age,card_id from student where id = #{id}) a
+        left join student_card b
+        on a.card_id = b.card_id
+    </select>
+
+    <insert id="saveStudent" parameterType="Student">
+        insert into student (user_name,age) values (#{userName},#{age})
+    </insert>
+
+    <delete id="deleteStudent" parameterType="Int">
+        delete from student where id = #{id}
+    </delete>
+
+    <update id="updateStudent" parameterType="Student">
+        update student
+        set user_name = #{userName},age = #{age},card_id = #{studentCard.cardId}
+        where id = #{id}
+    </update>
+
+</mapper>

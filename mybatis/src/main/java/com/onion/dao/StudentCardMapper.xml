@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.onion.dao.StudentCardMapper" >
+    <resultMap id="studentCard" type="StudentCard">
+        <id property="cardId" column="card_id" />
+        <result property="cardName" column="card_name" />
+    </resultMap>
+
+    <select id="getStudentCardById" parameterType="Integer" resultMap="studentCard">
+        select card_id,card_name from student_card where card_id = #{card_id}
+    </select>
+
+</mapper>
